@@ -1,0 +1,1 @@
+<p>ceci est le nouveau contenu de la page, le but de ce test est de me servir de la method load() afin de changer le contenue grace à du Jquery ajax.contenue est chargé à partir d'un fichier txt sur le serveur</p>
