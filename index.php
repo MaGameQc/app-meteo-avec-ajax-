@@ -46,7 +46,7 @@
             function checkMeteo(){
 
               $.ajax({
-                url: 'http://api.openweathermap.org/data/2.5/weather?q=' + ville + "&units=metric" + cleApi,
+                url: 'https://api.openweathermap.org/data/2.5/weather?q=' + ville + "&units=metric" + cleApi,
                 type: "GET",
                 dataType: "jsonp",
                 //ici on met jsonp car en json car sa nous sort une erreur, le p permet de bypasser les trouble de cross domain
